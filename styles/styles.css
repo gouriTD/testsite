@@ -20,6 +20,7 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --text-color-magenta: #FF00FF;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -75,8 +76,9 @@
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--background-color-yellow);
+  /* color: var(--text-color); */
+  color: var(--text-color-magenta);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
@@ -163,7 +165,8 @@ a:any-link {
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  /* color: var(--link-hover-color); */
+  color: red;
   text-decoration: underline;
 }
 
