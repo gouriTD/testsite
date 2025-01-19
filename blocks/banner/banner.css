@@ -1,0 +1,17 @@
+.banner-block-container{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.banner-block-container .item-text{
+    text-align: center;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.banner-block-container .item-image picture{
+    background-position: center
+}
